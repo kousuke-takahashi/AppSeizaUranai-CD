@@ -22,6 +22,7 @@ public class Seiza {
 	}
 
 
+			//numには1 ～ 12が入ります
 
 	public static void aries(int num){
 		//牡羊座
