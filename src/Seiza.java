@@ -24,51 +24,59 @@ public class Seiza {
 
 
 	public static void aries(int num){
+		//牡羊座
 
 	}
 
 	public static void taurus(int num){
+		//牡牛座
 
 	}
 
 	public static void gemini(int num){
+		//ふたご座
 
 	}
 
 	public static void cancer(int num){
-
+		//かに座
 	}
 
 	public static void leo(int num){
-
+		//獅子座
 	}
 
 	public static void virgo(int num){
+		//おとめ座
 
 	}
 
 	public static void libra(int num){
+		//天秤座
 
 	}
 
 	public static void scorpio(int num){
+		//さそり座
 
 	}
 
 	public static void sagittarius(int num){
+		//いて座
 
 	}
 
 	public static void capricorn(int num){
+		//やぎ座
 
 	}
 
 	public static void aquarius(int num){
-
+		//みずがめ座
 	}
 
 	public static void pisces(int num){
-
+		//うお座
 	}
 
 }
