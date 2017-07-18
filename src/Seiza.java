@@ -31,6 +31,16 @@ public class Seiza {
 
 	public static void taurus(int num){
 		//牡牛座
+		System.out.println("牡牛座のあなたの運勢は");
+		if( num >=  0 && num <=  3 ){//１～３位のとき
+			System.out.println("良いでしょう");
+		}
+		if( num >=  4 && num <=  9 ){//４～９位のとき
+			System.out.println("普通でしょう");
+		}
+		if( num >= 10 && num <= 12 ){//１０～１２位のとき
+			System.out.println("残念でしょう");
+		}
 
 	}
 
