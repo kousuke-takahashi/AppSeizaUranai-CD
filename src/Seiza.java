@@ -41,6 +41,55 @@ public class Seiza {
 
 	public static void cancer(int num){
 		//かに座
+		System.out.print("蟹座は");
+		 if(num == 1){
+			    System.out.println("１位です。");
+			    System.out.println("ラッキーアイテム：ホチキス");
+			  }
+			  else if(num == 2){
+		      System.out.println("２位です。");
+		      System.out.println("ラッキーアイテム：カッター");
+			  }
+		    else if(num == 3){
+		      System.out.println("３位です。");
+		      System.out.println("ラッキーアイテム：アロンアルファ");
+		    }
+		    else if(num == 4){
+		      System.out.println("４位です。");
+		      System.out.println("ラッキーアイテム：定規");
+		    }
+		    else if(num == 5){
+		      System.out.println("５位です。");
+		      System.out.println("ラッキーアイテム：コンパス");
+		    }
+		    else if(num == 6){
+		      System.out.println("６位です。");
+		      System.out.println("ラッキーアイテム：消しゴム");
+		    }
+		    else if(num == 7){
+		      System.out.println("７位です。");
+		      System.out.println("ラッキーアイテム：鉛筆");
+		    }
+		    else if(num == 8){
+		      System.out.println("８位です。");
+		      System.out.println("ラッキーアイテム：蛍光ペン");
+		    }
+		    else if(num == 9){
+		      System.out.println("９位です。");
+		      System.out.println("ラッキーアイテム：万年筆");
+		    }
+		    else if(num == 10){
+		      System.out.println("１０位です。");
+		      System.out.println("ラッキーアイテム：ハサミ");
+		    }
+		    else if(num == 11){
+		      System.out.println("１１位です。");
+		      System.out.println("ラッキーアイテム：のり");
+		    }
+		    else if(num == 12){
+		      System.out.println("１２位です。");
+		      System.out.println("ラッキーアイテム：油性ペン");
+		    }
 	}
 
 	public static void leo(int num){
