@@ -76,8 +76,50 @@ public class Seiza {
 		//みずがめ座
 	}
 
+	/**
+	 * @param num
+	 */
 	public static void pisces(int num){
 		//うお座
+		System.out.print("うお座は");
+		if(num == 1){
+			System.out.println("1位です");
+			System.out.println("ラッキーアイテムは大根です");
+		}else if(num == 2){
+			System.out.println("2位です");
+			System.out.println("ラッキーアイテムはたまごです");
+		}else if(num == 3){
+			System.out.println("3位です");
+			System.out.println("ラッキーアイテムはこんにゃくです");
+		}else if(num == 4){
+			System.out.println("4位です");
+			System.out.println("ラッキーアイテムはちくわです");
+		}else if(num == 5){
+			System.out.println("5位です");
+			System.out.println("ラッキーアイテムは餅入り巾着です");
+		}else if(num == 6){
+			System.out.println("6位です");
+			System.out.println("ラッキーアイテムははんぺんです");
+		}else if(num == 7){
+			System.out.println("7位です");
+			System.out.println("ラッキーアイテムは牛すじ串です");
+		}else if(num == 8){
+			System.out.println("8位です");
+			System.out.println("ラッキーアイテムは厚揚げです");
+		}else if(num == 9){
+			System.out.println("9位です");
+			System.out.println("ラッキーアイテムはじゃがいもです");
+		}else if(num == 10){
+			System.out.println("10位です");
+			System.out.println("ラッキーアイテムはしらたきです");
+		}else if(num == 11){
+			System.out.println("11位です");
+			System.out.println("ラッキーアイテムはがんもどきです");
+		}else if(num == 12){
+			System.out.println("12位です");
+			System.out.println("ラッキーアイテムはさつま揚げです");
+		}
+
 	}
 
 }
