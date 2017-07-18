@@ -59,6 +59,54 @@ public class Seiza {
 
 	public static void scorpio(int num){
 		//さそり座
+		  if(num == 1){
+			    System.out.println("１位です。");
+			    System.out.println("ラッキーアイテム：スカイブルーの小物");
+			  }
+			  else if(num == 2){
+		      System.out.println("２位です。");
+		      System.out.println("ラッキーアイテム：財布");
+			  }
+		    else if(num == 3){
+		      System.out.println("３位です。");
+		      System.out.println("ラッキーアイテム：iphone");
+		    }
+		    else if(num == 4){
+		      System.out.println("４位です。");
+		      System.out.println("ラッキーアイテム：500円玉");
+		    }
+		    else if(num == 5){
+		      System.out.println("５位です。");
+		      System.out.println("ラッキーアイテム：5千円札");
+		    }
+		    else if(num == 6){
+		      System.out.println("６位です。");
+		      System.out.println("ラッキーアイテム：千円札");
+		    }
+		    else if(num == 7){
+		      System.out.println("７位です。");
+		      System.out.println("ラッキーアイテム：ギザ十");
+		    }
+		    else if(num == 8){
+		      System.out.println("８位です。");
+		      System.out.println("ラッキーアイテム：100円玉");
+		    }
+		    else if(num == 9){
+		      System.out.println("９位です。");
+		      System.out.println("ラッキーアイテム：銀色の500円");
+		    }
+		    else if(num == 10){
+		      System.out.println("１０位です。");
+		      System.out.println("ラッキーアイテム：昭和64年の10円");
+		    }
+		    else if(num == 11){
+		      System.out.println("１１位です。");
+		      System.out.println("ラッキーアイテム：二千円札");
+		    }
+		    else if(num == 12){
+		      System.out.println("１２位です。");
+		      System.out.println("ラッキーアイテム：女の子の連絡先");
+		    }
 
 	}
 
