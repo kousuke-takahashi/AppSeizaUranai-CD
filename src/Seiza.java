@@ -36,7 +36,56 @@ public class Seiza {
 
 	public static void gemini(int num){
 		//ふたご座
-
+		switch (num){
+		case 1:
+			System.out.println("１位！！");
+			System.out.println("ラッキーポイント：温かいお茶");
+			break;
+		case 2:
+			System.out.println("２位！！");
+			System.out.println("ラッキーポイント：熱帯魚の画像");
+			break;
+		case 3:
+			System.out.println("３位！！");
+			System.out.println("ラッキーポイント：ビーズブレスレット");
+			break;
+		case 4:
+			System.out.println("４位");
+			System.out.println("ラッキーポイント：ミルクティー");
+			break;
+		case 5:
+			System.out.println("５位");
+			System.out.println("ラッキーポイント：エスニック調味料");
+			break;
+		case 6:
+			System.out.println("６位");
+			System.out.println("ラッキーポイント：野菜の鉢植え");
+			break;
+		case 7:
+			System.out.println("７位");
+			System.out.println("ラッキーポイント：塗り絵");
+			break;
+		case 8:
+			System.out.println("８位");
+			System.out.println("ラッキーポイント：旅行ガイドブック");
+			break;
+		case 9:
+			System.out.println("９位");
+			System.out.println("ラッキーポイント：梅干し");
+			break;
+		case 10:
+			System.out.println("１０位");
+			System.out.println("ラッキーポイント：ジーパン");
+			break;
+		case 11:
+			System.out.println("１１位");
+			System.out.println("ラッキーポイント：星がデザインされた小物");
+			break;
+		case 12:
+			System.out.println("１２位");
+			System.out.println("ラッキーポイント：海鮮丼");
+			break;
+		}
 	}
 
 	public static void cancer(int num){
