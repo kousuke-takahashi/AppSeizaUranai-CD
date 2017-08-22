@@ -7,7 +7,7 @@ public class Seiza {
 		for(int i = 0;i < 12;i++){
 			for(int j = 0; j < 12; j++){
 				if(i == rand[j]){
-					uranai(i,rand[j]);
+					uranai(i + 1,rand[j]);
 					System.out.println();
 				}
 			}
@@ -578,6 +578,13 @@ public class Seiza {
 		else if(num == 12){
 			System.out.println("１２位です。");
 			System.out.println("ラッキーアイテム：エリエール");
+		}
+
+		if(num <= 6){
+			System.out.println("ただし佐藤大地には気をつけること！！！");
+		}
+		if(num >= 7){
+			System.out.println("ただし佐藤大地をからかうと運気アップ！！！");
 		}
 	}
 
