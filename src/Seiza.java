@@ -54,6 +54,7 @@ public class Seiza {
 
 	public static void libra(int num){
 		//天秤座
+
 		 if(num == 1){
 			    System.out.println("１位です。");
 			    System.out.println("ラッキーアイテム：腕時計");
