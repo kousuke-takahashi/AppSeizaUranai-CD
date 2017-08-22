@@ -94,16 +94,58 @@ public class Seiza {
 
 	public static void taurus(int num){
 		//牡牛座
-		System.out.println(num +"位は牡牛座です！");
-		if( num >=  0 && num <=  3 ){//１～３位のとき
-			System.out.println("良いでしょう");
+		System.out.println("牡牛座のあなたの運勢は");
+		switch(num){
+
+		case 1  : System.out.println("1位です");
+		          System.out.println("今日一日幸運です");
+		          break;
+
+		case 2  : System.out.println("2位です");
+		          System.out.println("良いことあるかも");
+		          break;
+
+		case 3  : System.out.println("3位です");
+		          System.out.println("まあまあかな");
+		          break;
+
+		case 4  : System.out.println("4位です");
+		          System.out.println("微妙かな");
+		          break;
+
+		case 5  : System.out.println("5位です");
+		          System.out.println("普通");
+		          break;
+
+		case 6  : System.out.println("6位です");
+		          System.out.println("悪くなく良くもない");
+		          break;
+
+		case 7  : System.out.println("7位です");
+		          System.out.println("普通よりは低い");
+		          break;
+
+		case 8  : System.out.println("8位です");
+		          System.out.println("悪いよりマシ");
+		          break;
+
+		case 9  : System.out.println("9位です");
+		          System.out.println("まあ低いかな");
+		          break;
+
+		case 10 : System.out.println("10位です");
+		          System.out.println("ドンマイ");
+		          break;
+
+		case 11 : System.out.println("11位です");
+		          System.out.println("ご愁傷様です");
+		          break;
+
+		case 12 : System.out.println("12位です");
+		          System.out.println("明日があるさ");
+		          break;
 		}
-		if( num >=  4 && num <=  9 ){//４～９位のとき
-			System.out.println("普通でしょう");
-		}
-		if( num >= 10 && num <= 12 ){//１０～１２位のとき
-			System.out.println("残念でしょう");
-		}
+
 
 	}
 
