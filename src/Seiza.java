@@ -45,6 +45,57 @@ public class Seiza {
 
 	public static void leo(int num){
 		//獅子座
+		switch(num){
+		case 1 :
+			System.out.println("1位");
+			System.out.println("ラッキーアイテムは、帽子");
+			break;
+		case 2 :
+			System.out.println("2位");
+			System.out.println("ラッキーアイテムは、財布");
+			break;
+		case 3 :
+			System.out.println("3位");
+			System.out.println("ラッキーアイテムは、腕時計");
+			break;
+		case 4 :
+			System.out.println("4位");
+			System.out.println("ラッキーアイテムは、鉛筆");
+			break;
+		case 5 :
+			System.out.println("5位");
+			System.out.println("ラッキーアイテムは、風船");
+			break;
+		case 6 :
+			System.out.println("6位");
+			System.out.println("ラッキーアイテムは、ネックレス");
+			break;
+		case 7 :
+			System.out.println("7位");
+			System.out.println("ラッキーアイテムは、ブレスレット");
+			break;
+		case 8 :
+			System.out.println("8位");
+			System.out.println("ラッキーアイテムは、ハンカチ");
+			break;
+		case 9 :
+			System.out.println("9位");
+			System.out.println("ラッキーアイテムは、シャーペン");
+			break;
+		case 10 :
+			System.out.println("10位");
+			System.out.println("ラッキーアイテムは、日傘");
+			break;
+		case 11 :
+			System.out.println("11位");
+			System.out.println("ラッキーアイテムは、うちわ");
+			break;
+		case 12 :
+			System.out.println("12位");
+			System.out.println("ラッキーアイテムは、本");
+			break;
+		}
+
 	}
 
 	public static void virgo(int num){
