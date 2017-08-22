@@ -4,25 +4,47 @@ public class Seiza {
 
 	public static void main(String[] args){
 		int[] rand = Random.randomInt(12);
-		aries(rand[0] + 1);
-		taurus(rand[1] + 1);
-		gemini(rand[2] + 1);
-		cancer(rand[3] + 1);
-		leo(rand[4] + 1);
-		virgo(rand[5] + 1);
-		libra(rand[6] + 1);
-		scorpio(rand[7] + 1);
-		sagittarius(rand[8] + 1);
-		capricorn(rand[9] + 1);
-		aquarius(rand[10] + 1);
-		pisces(rand[11] + 1);
+		for(int i = 0;i < 12;i++){
+			for(int j = 0; j < 12; j++){
+				if(i == rand[j]){
+					uranai(i,rand[j]);
+					System.out.println();
+				}
+			}
+		}
+	}
 
-
-
+	public static void uranai(int rank,int index){
+		if(index == 1){
+			aries(rank);
+		}else if(index == 2){
+			taurus(rank);
+		}else if(index == 3){
+		gemini(rank);
+		}else if(index == 4){
+		cancer(rank);
+		}else if(index == 5){
+		leo(rank);
+		}else if(index == 6){
+		libra(rank);
+		}else if(index == 7){
+		virgo(rank);
+		}else if(index == 8){
+		scorpio(rank);
+		}else if(index == 9){
+		sagittarius(rank);
+		}else if(index == 10){
+		capricorn(rank);
+		}else if(index == 11){
+		aquarius(rank);
+		}else if(index == 12){
+		pisces(rank);
+		}
 	}
 
 
-			//numには1 ～ 12が入ります
+
+	//numには1 ～ 12が入ります
 
 	public static void aries(int num){
 		//牡羊座
@@ -40,42 +62,42 @@ public class Seiza {
 			System.out.println("3位だよ！");
 			System.out.println("オープンな態度で過ごすのが大事");
 			break;
-	    case 4:
-	    	System.out.println("4位だよ！");
-	    	System.out.println("暮らしの中に新たなものを取り入れると吉です");
-	    	break;
-	    case 5:
-	    	System.out.println("5位だよ！");
-	    	System.out.println("胸がときめくシーンに遭遇する日になります");
-	    	break;
-	    case 6:
-	    	System.out.println("6位だよ！");
-	    	System.out.println("胸がときめくようなものを見つけられそう");
-	    	break;
-	    case 7:
-	    	System.out.println("7位だよ！");
-	    	System.out.println("イメージチェンジに適している日になります");
-	    	break;
-	    case 8:
-	    	System.out.println("8位だよ！");
-	    	System.out.println("刺激を求めて冒険をしたくなりそう");
-	    	break;
-	    case 9:
-	    	System.out.println("9位だよ！");
-	    	System.out.println("刺激や変化を求める日になりそう");
-	    	break;
-	    case 10:
-	    	System.out.println("10位だよ！");
-	    	System.out.println("無理な約束をしないように注意");
-	    	break;
-	    case 11:
-	    	System.out.println("11位だよ！");
-	    	System.out.println("楽しみを見つけて上手に気分転換を");
-	    	break;
-	    case 12:
-	    	System.out.println("12位だよ！");
-	    	System.out.println("プラス思考でいきましょう");
-	    	break;
+		case 4:
+			System.out.println("4位だよ！");
+			System.out.println("暮らしの中に新たなものを取り入れると吉です");
+			break;
+		case 5:
+			System.out.println("5位だよ！");
+			System.out.println("胸がときめくシーンに遭遇する日になります");
+			break;
+		case 6:
+			System.out.println("6位だよ！");
+			System.out.println("胸がときめくようなものを見つけられそう");
+			break;
+		case 7:
+			System.out.println("7位だよ！");
+			System.out.println("イメージチェンジに適している日になります");
+			break;
+		case 8:
+			System.out.println("8位だよ！");
+			System.out.println("刺激を求めて冒険をしたくなりそう");
+			break;
+		case 9:
+			System.out.println("9位だよ！");
+			System.out.println("刺激や変化を求める日になりそう");
+			break;
+		case 10:
+			System.out.println("10位だよ！");
+			System.out.println("無理な約束をしないように注意");
+			break;
+		case 11:
+			System.out.println("11位だよ！");
+			System.out.println("楽しみを見つけて上手に気分転換を");
+			break;
+		case 12:
+			System.out.println("12位だよ！");
+			System.out.println("プラス思考でいきましょう");
+			break;
 		}
 	}
 
@@ -152,54 +174,54 @@ public class Seiza {
 	public static void cancer(int num){
 		//かに座
 		System.out.print("蟹座は");
-		 if(num == 1){
-			    System.out.println("１位です。");
-			    System.out.println("ラッキーアイテム：ホチキス");
-			  }
-			  else if(num == 2){
-		      System.out.println("２位です。");
-		      System.out.println("ラッキーアイテム：カッター");
-			  }
-		    else if(num == 3){
-		      System.out.println("３位です。");
-		      System.out.println("ラッキーアイテム：アロンアルファ");
-		    }
-		    else if(num == 4){
-		      System.out.println("４位です。");
-		      System.out.println("ラッキーアイテム：定規");
-		    }
-		    else if(num == 5){
-		      System.out.println("５位です。");
-		      System.out.println("ラッキーアイテム：コンパス");
-		    }
-		    else if(num == 6){
-		      System.out.println("６位です。");
-		      System.out.println("ラッキーアイテム：消しゴム");
-		    }
-		    else if(num == 7){
-		      System.out.println("７位です。");
-		      System.out.println("ラッキーアイテム：鉛筆");
-		    }
-		    else if(num == 8){
-		      System.out.println("８位です。");
-		      System.out.println("ラッキーアイテム：蛍光ペン");
-		    }
-		    else if(num == 9){
-		      System.out.println("９位です。");
-		      System.out.println("ラッキーアイテム：万年筆");
-		    }
-		    else if(num == 10){
-		      System.out.println("１０位です。");
-		      System.out.println("ラッキーアイテム：ハサミ");
-		    }
-		    else if(num == 11){
-		      System.out.println("１１位です。");
-		      System.out.println("ラッキーアイテム：のり");
-		    }
-		    else if(num == 12){
-		      System.out.println("１２位です。");
-		      System.out.println("ラッキーアイテム：油性ペン");
-		    }
+		if(num == 1){
+			System.out.println("１位です。");
+			System.out.println("ラッキーアイテム：ホチキス");
+		}
+		else if(num == 2){
+			System.out.println("２位です。");
+			System.out.println("ラッキーアイテム：カッター");
+		}
+		else if(num == 3){
+			System.out.println("３位です。");
+			System.out.println("ラッキーアイテム：アロンアルファ");
+		}
+		else if(num == 4){
+			System.out.println("４位です。");
+			System.out.println("ラッキーアイテム：定規");
+		}
+		else if(num == 5){
+			System.out.println("５位です。");
+			System.out.println("ラッキーアイテム：コンパス");
+		}
+		else if(num == 6){
+			System.out.println("６位です。");
+			System.out.println("ラッキーアイテム：消しゴム");
+		}
+		else if(num == 7){
+			System.out.println("７位です。");
+			System.out.println("ラッキーアイテム：鉛筆");
+		}
+		else if(num == 8){
+			System.out.println("８位です。");
+			System.out.println("ラッキーアイテム：蛍光ペン");
+		}
+		else if(num == 9){
+			System.out.println("９位です。");
+			System.out.println("ラッキーアイテム：万年筆");
+		}
+		else if(num == 10){
+			System.out.println("１０位です。");
+			System.out.println("ラッキーアイテム：ハサミ");
+		}
+		else if(num == 11){
+			System.out.println("１１位です。");
+			System.out.println("ラッキーアイテム：のり");
+		}
+		else if(num == 12){
+			System.out.println("１２位です。");
+			System.out.println("ラッキーアイテム：油性ペン");
+		}
 	}
 
 	public static void leo(int num){
@@ -262,158 +284,158 @@ public class Seiza {
 		//おとめ座
 		System.out.print("おとめ座は");
 		if(num == 1){
-		    System.out.println("１位です。");
-		    System.out.println("ラッキーアイテム：赤いアヒルのおもちゃ");
-		  }
-		  else if(num == 2){
-	      System.out.println("２位です。");
-	      System.out.println("ラッキーアイテム：４Bのシャーペン");
-		  }
-	    else if(num == 3){
-	      System.out.println("３位です。");
-	      System.out.println("ラッキーアイテム：ビトンの財布");
-	    }
-	    else if(num == 4){
-	      System.out.println("４位です。");
-	      System.out.println("ラッキーアイテム：赤いアイホン");
-	    }
-	    else if(num == 5){
-	      System.out.println("５位です。");
-	      System.out.println("ラッキーアイテム：銀色のファーストピアス");
-	    }
-	    else if(num == 6){
-	      System.out.println("６位です。");
-	      System.out.println("ラッキーアイテム：青いコンバースの靴");
-	    }
-	    else if(num == 7){
-	      System.out.println("７位です。");
-	      System.out.println("ラッキーアイテム：緑色のハート柄のパンツ");
-	    }
-	    else if(num == 8){
-	      System.out.println("８位です。");
-	      System.out.println("ラッキーアイテム：コカ・コーラの空き瓶");
-	    }
-	    else if(num == 9){
-	      System.out.println("９位です。");
-	      System.out.println("ラッキーアイテム：チチカカのネックレス");
-	    }
-	    else if(num == 10){
-	      System.out.println("１０位です。");
-	      System.out.println("ラッキーアイテム：元カノ（元カレ）の連絡先");
-	    }
-	    else if(num == 11){
-	      System.out.println("１１位です。");
-	      System.out.println("ラッキーアイテム：デューサーの４番");
-	    }
-	    else if(num == 12){
-	      System.out.println("１２位です。");
-	      System.out.println("ラッキーアイテム：マニックパニックのカラーワックス");
-	    }
+			System.out.println("１位です。");
+			System.out.println("ラッキーアイテム：赤いアヒルのおもちゃ");
+		}
+		else if(num == 2){
+			System.out.println("２位です。");
+			System.out.println("ラッキーアイテム：４Bのシャーペン");
+		}
+		else if(num == 3){
+			System.out.println("３位です。");
+			System.out.println("ラッキーアイテム：ビトンの財布");
+		}
+		else if(num == 4){
+			System.out.println("４位です。");
+			System.out.println("ラッキーアイテム：赤いアイホン");
+		}
+		else if(num == 5){
+			System.out.println("５位です。");
+			System.out.println("ラッキーアイテム：銀色のファーストピアス");
+		}
+		else if(num == 6){
+			System.out.println("６位です。");
+			System.out.println("ラッキーアイテム：青いコンバースの靴");
+		}
+		else if(num == 7){
+			System.out.println("７位です。");
+			System.out.println("ラッキーアイテム：緑色のハート柄のパンツ");
+		}
+		else if(num == 8){
+			System.out.println("８位です。");
+			System.out.println("ラッキーアイテム：コカ・コーラの空き瓶");
+		}
+		else if(num == 9){
+			System.out.println("９位です。");
+			System.out.println("ラッキーアイテム：チチカカのネックレス");
+		}
+		else if(num == 10){
+			System.out.println("１０位です。");
+			System.out.println("ラッキーアイテム：元カノ（元カレ）の連絡先");
+		}
+		else if(num == 11){
+			System.out.println("１１位です。");
+			System.out.println("ラッキーアイテム：デューサーの４番");
+		}
+		else if(num == 12){
+			System.out.println("１２位です。");
+			System.out.println("ラッキーアイテム：マニックパニックのカラーワックス");
+		}
 	}
 	public static void libra(int num){
 		//天秤座
 		System.out.print("天秤座は");
-		 if(num == 1){
-			    System.out.println("１位です。");
-			    System.out.println("ラッキーアイテム：腕時計");
-			  }
-			  else if(num == 2){
-		      System.out.println("２位です。");
-		      System.out.println("ラッキーアイテム：android端末");
-			  }
-		    else if(num == 3){
-		      System.out.println("３位です。");
-		      System.out.println("ラッキーアイテム：りんご");
-		    }
-		    else if(num == 4){
-		      System.out.println("４位です。");
-		      System.out.println("ラッキーアイテム：100円玉");
-		    }
-		    else if(num == 5){
-		      System.out.println("５位です。");
-		      System.out.println("ラッキーアイテム：千円札");
-		    }
-		    else if(num == 6){
-		      System.out.println("６位です。");
-		      System.out.println("ラッキーアイテム：一万円札");
-		    }
-		    else if(num == 7){
-		      System.out.println("７位です。");
-		      System.out.println("ラッキーアイテム：赤のボールペン");
-		    }
-		    else if(num == 8){
-		      System.out.println("８位です。");
-		      System.out.println("ラッキーアイテム：イヤホン");
-		    }
-		    else if(num == 9){
-		      System.out.println("９位です。");
-		      System.out.println("ラッキーアイテム：色鉛筆");
-		    }
-		    else if(num == 10){
-		      System.out.println("１０位です。");
-		      System.out.println("ラッキーアイテム：ブランケット");
-		    }
-		    else if(num == 11){
-		      System.out.println("１１位です。");
-		      System.out.println("ラッキーアイテム：文鎮");
-		    }
-		    else if(num == 12){
-		      System.out.println("１２位です。");
-		      System.out.println("ラッキーアイテム：アニマルビデオ");
-		    }
+		if(num == 1){
+			System.out.println("１位です。");
+			System.out.println("ラッキーアイテム：腕時計");
+		}
+		else if(num == 2){
+			System.out.println("２位です。");
+			System.out.println("ラッキーアイテム：android端末");
+		}
+		else if(num == 3){
+			System.out.println("３位です。");
+			System.out.println("ラッキーアイテム：りんご");
+		}
+		else if(num == 4){
+			System.out.println("４位です。");
+			System.out.println("ラッキーアイテム：100円玉");
+		}
+		else if(num == 5){
+			System.out.println("５位です。");
+			System.out.println("ラッキーアイテム：千円札");
+		}
+		else if(num == 6){
+			System.out.println("６位です。");
+			System.out.println("ラッキーアイテム：一万円札");
+		}
+		else if(num == 7){
+			System.out.println("７位です。");
+			System.out.println("ラッキーアイテム：赤のボールペン");
+		}
+		else if(num == 8){
+			System.out.println("８位です。");
+			System.out.println("ラッキーアイテム：イヤホン");
+		}
+		else if(num == 9){
+			System.out.println("９位です。");
+			System.out.println("ラッキーアイテム：色鉛筆");
+		}
+		else if(num == 10){
+			System.out.println("１０位です。");
+			System.out.println("ラッキーアイテム：ブランケット");
+		}
+		else if(num == 11){
+			System.out.println("１１位です。");
+			System.out.println("ラッキーアイテム：文鎮");
+		}
+		else if(num == 12){
+			System.out.println("１２位です。");
+			System.out.println("ラッキーアイテム：アニマルビデオ");
+		}
 	}
 
 	public static void scorpio(int num){
 		//さそり座
 		System.out.print("さそり座は");
-		  if(num == 1){
-			    System.out.println("１位です。");
-			    System.out.println("ラッキーアイテム：スカイブルーの小物");
-			  }
-			  else if(num == 2){
-		      System.out.println("２位です。");
-		      System.out.println("ラッキーアイテム：財布");
-			  }
-		    else if(num == 3){
-		      System.out.println("３位です。");
-		      System.out.println("ラッキーアイテム：iphone");
-		    }
-		    else if(num == 4){
-		      System.out.println("４位です。");
-		      System.out.println("ラッキーアイテム：500円玉");
-		    }
-		    else if(num == 5){
-		      System.out.println("５位です。");
-		      System.out.println("ラッキーアイテム：5千円札");
-		    }
-		    else if(num == 6){
-		      System.out.println("６位です。");
-		      System.out.println("ラッキーアイテム：千円札");
-		    }
-		    else if(num == 7){
-		      System.out.println("７位です。");
-		      System.out.println("ラッキーアイテム：ギザ十");
-		    }
-		    else if(num == 8){
-		      System.out.println("８位です。");
-		      System.out.println("ラッキーアイテム：100円玉");
-		    }
-		    else if(num == 9){
-		      System.out.println("９位です。");
-		      System.out.println("ラッキーアイテム：銀色の500円");
-		    }
-		    else if(num == 10){
-		      System.out.println("１０位です。");
-		      System.out.println("ラッキーアイテム：昭和64年の10円");
-		    }
-		    else if(num == 11){
-		      System.out.println("１１位です。");
-		      System.out.println("ラッキーアイテム：二千円札");
-		    }
-		    else if(num == 12){
-		      System.out.println("１２位です。");
-		      System.out.println("ラッキーアイテム：女の子の連絡先");
-		    }
+		if(num == 1){
+			System.out.println("１位です。");
+			System.out.println("ラッキーアイテム：スカイブルーの小物");
+		}
+		else if(num == 2){
+			System.out.println("２位です。");
+			System.out.println("ラッキーアイテム：財布");
+		}
+		else if(num == 3){
+			System.out.println("３位です。");
+			System.out.println("ラッキーアイテム：iphone");
+		}
+		else if(num == 4){
+			System.out.println("４位です。");
+			System.out.println("ラッキーアイテム：500円玉");
+		}
+		else if(num == 5){
+			System.out.println("５位です。");
+			System.out.println("ラッキーアイテム：5千円札");
+		}
+		else if(num == 6){
+			System.out.println("６位です。");
+			System.out.println("ラッキーアイテム：千円札");
+		}
+		else if(num == 7){
+			System.out.println("７位です。");
+			System.out.println("ラッキーアイテム：ギザ十");
+		}
+		else if(num == 8){
+			System.out.println("８位です。");
+			System.out.println("ラッキーアイテム：100円玉");
+		}
+		else if(num == 9){
+			System.out.println("９位です。");
+			System.out.println("ラッキーアイテム：銀色の500円");
+		}
+		else if(num == 10){
+			System.out.println("１０位です。");
+			System.out.println("ラッキーアイテム：昭和64年の10円");
+		}
+		else if(num == 11){
+			System.out.println("１１位です。");
+			System.out.println("ラッキーアイテム：二千円札");
+		}
+		else if(num == 12){
+			System.out.println("１２位です。");
+			System.out.println("ラッキーアイテム：女の子の連絡先");
+		}
 
 	}
 
@@ -508,60 +530,108 @@ public class Seiza {
 
 	public static void capricorn(int num){
 		//やぎ座
-
+		System.out.print("やぎ座は");
+		if(num == 1){
+			System.out.println("１位です。");
+			System.out.println("ラッキーアイテム：スーパーコンピュータ");
+		}
+		else if(num == 2){
+			System.out.println("２位です。");
+			System.out.println("ラッキーアイテム：金塊");
+		}
+		else if(num == 3){
+			System.out.println("３位です。");
+			System.out.println("ラッキーアイテム：ダイヤモンド");
+		}
+		else if(num == 4){
+			System.out.println("４位です。");
+			System.out.println("ラッキーアイテム：2000円札");
+		}
+		else if(num == 5){
+			System.out.println("５位です。");
+			System.out.println("ラッキーアイテム：マンガ肉");
+		}
+		else if(num == 6){
+			System.out.println("６位です。");
+			System.out.println("ラッキーアイテム：100円札");
+		}
+		else if(num == 7){
+			System.out.println("７位です。");
+			System.out.println("ラッキーアイテム：サファイア");
+		}
+		else if(num == 8){
+			System.out.println("８位です。");
+			System.out.println("ラッキーアイテム：ruby");
+		}
+		else if(num == 9){
+			System.out.println("９位です。");
+			System.out.println("ラッキーアイテム：リオレイア");
+		}
+		else if(num == 10){
+			System.out.println("１０位です。");
+			System.out.println("ラッキーアイテム：歯車");
+		}
+		else if(num == 11){
+			System.out.println("１１位です。");
+			System.out.println("ラッキーアイテム：無");
+		}
+		else if(num == 12){
+			System.out.println("１２位です。");
+			System.out.println("ラッキーアイテム：エリエール");
+		}
 	}
 
 	public static void aquarius(int num){
 		//みずがめ座
 		System.out.print("みずがめ座は");
-	  if(num == 1){
-	    System.out.println("１位です。");
-	    System.out.println("ラッキーアイテム：お金");
-	  }
-	  else if(num == 2){
-      System.out.println("２位です。");
-      System.out.println("ラッキーアイテム：宝くじ");
-	  }
-    else if(num == 3){
-      System.out.println("３位です。");
-      System.out.println("ラッキーアイテム：財布");
-    }
-    else if(num == 4){
-      System.out.println("４位です。");
-      System.out.println("ラッキーアイテム：万札");
-    }
-    else if(num == 5){
-      System.out.println("５位です。");
-      System.out.println("ラッキーアイテム：5千円札");
-    }
-    else if(num == 6){
-      System.out.println("６位です。");
-      System.out.println("ラッキーアイテム：千円札");
-    }
-    else if(num == 7){
-      System.out.println("７位です。");
-      System.out.println("ラッキーアイテム：500円玉");
-    }
-    else if(num == 8){
-      System.out.println("８位です。");
-      System.out.println("ラッキーアイテム：100円玉");
-    }
-    else if(num == 9){
-      System.out.println("９位です。");
-      System.out.println("ラッキーアイテム：10円玉");
-    }
-    else if(num == 10){
-      System.out.println("１０位です。");
-      System.out.println("ラッキーアイテム：5円玉");
-    }
-    else if(num == 11){
-      System.out.println("１１位です。");
-      System.out.println("ラッキーアイテム：1円玉");
-    }
-    else if(num == 12){
-      System.out.println("１２位です。");
-      System.out.println("ラッキーアイテム：物乞い");
-    }
+		if(num == 1){
+			System.out.println("１位です。");
+			System.out.println("ラッキーアイテム：お金");
+		}
+		else if(num == 2){
+			System.out.println("２位です。");
+			System.out.println("ラッキーアイテム：宝くじ");
+		}
+		else if(num == 3){
+			System.out.println("３位です。");
+			System.out.println("ラッキーアイテム：財布");
+		}
+		else if(num == 4){
+			System.out.println("４位です。");
+			System.out.println("ラッキーアイテム：万札");
+		}
+		else if(num == 5){
+			System.out.println("５位です。");
+			System.out.println("ラッキーアイテム：5千円札");
+		}
+		else if(num == 6){
+			System.out.println("６位です。");
+			System.out.println("ラッキーアイテム：千円札");
+		}
+		else if(num == 7){
+			System.out.println("７位です。");
+			System.out.println("ラッキーアイテム：500円玉");
+		}
+		else if(num == 8){
+			System.out.println("８位です。");
+			System.out.println("ラッキーアイテム：100円玉");
+		}
+		else if(num == 9){
+			System.out.println("９位です。");
+			System.out.println("ラッキーアイテム：10円玉");
+		}
+		else if(num == 10){
+			System.out.println("１０位です。");
+			System.out.println("ラッキーアイテム：5円玉");
+		}
+		else if(num == 11){
+			System.out.println("１１位です。");
+			System.out.println("ラッキーアイテム：1円玉");
+		}
+		else if(num == 12){
+			System.out.println("１２位です。");
+			System.out.println("ラッキーアイテム：物乞い");
+		}
 	}
 
 	/**
