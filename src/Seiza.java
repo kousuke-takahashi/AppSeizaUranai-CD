@@ -190,6 +190,12 @@ public class Seiza {
 			System.out.println("ラッキーポイント：海鮮丼");
 			break;
 		}
+		if(num <= 6){
+			System.out.println("ただし足元にはきをつけること！！");
+		}
+		if(num >= 7){
+			System.out.println("ただし掃除をすると運気アップ！！");
+		}
 	}
 
 	public static void cancer(int num){
